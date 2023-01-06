@@ -1,0 +1,232 @@
+body {
+    font-family: 'Space Grotesk', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.navbar {
+    background-color: #FFF8E3;
+}
+
+.background {
+    /* max-width: 12500; */
+    width: 13000px;
+}
+
+.logo-img {
+    height: 30px;
+}
+
+.get-btn {
+    background: #FF165F;
+    border-radius: 35px;
+    border: 0;
+}
+
+.vct-icon {
+    width: 15px;
+    
+}
+
+.background-image {
+    background: url("../assets/Rectangle.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-text {
+    line-height:90px;
+}
+
+.bg-para {
+    color: #FFFADF;
+}
+
+.launch-wrapper {
+    background: #FFF8E3;
+    border-radius: 0px;
+}
+
+.launch-img {
+    max-width: 200px;
+    top: -75px;
+    left: 0;
+    /* top: 20px !important;
+    left: -20 !important; */
+    /* transform: translateX(px);
+    transform: translateY(px); */
+}
+
+.launch-image {
+    width: 100%;
+    display: none;
+}
+
+.launch-text-wrapper {
+    flex-grow: 1;
+}
+
+.launch-header {
+    color: #650221;;
+}
+
+.launch-text {
+    color: #650221;;
+}
+
+.career-wrapper {
+    /* background:  #FFFDF3; */
+    background-image: url(../assets/careerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.career-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-top: 60px;
+}
+
+.wrapper-cont {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 38px;
+}
+
+.career-header {
+    color: #432931;
+}
+
+.career-header h3 {
+    margin-block: 0px;
+}
+
+.career-image, .career-details{
+    /* width: 50%; */
+}
+
+/* .career-image {
+   width: 269px; 
+} */
+
+.career-img {
+    /* width: 100%; */
+    width: 269px;
+}
+
+.career-path-text {
+    padding-top: 13px;
+    margin-block-end: 0;
+}
+
+.career-period {
+    padding-bottom: 7px;
+}
+
+.full-stack-wrapper {
+    /* border-bottom: 2px solid black; */
+}
+
+.career-period {
+    color: #FF3D40;
+}
+
+.countdown-wrapper {
+    background: linear-gradient(180deg, rgba(255, 186, 187, 0.2) 0%, rgba(252, 106, 108, 0) 100%);
+    border-radius: 200px 0px 0px 0px;
+}
+
+/* font weights */
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+/* font-sizes */
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-48 {
+    font-size: -48px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.font-52 {
+    font-size: 52px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-80 {
+    font-size: 80px
+}
+
+.font-100 {
+    font-size: 100px;
+}
