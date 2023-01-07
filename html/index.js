@@ -1,3 +1,19 @@
+
+const header = document.querySelector("[data-header]");
+
+const activeElementOnScroll = function () {
+    if( window.scrollY > 40) {
+        header.classList.add("active");
+    } else {
+        header.classList.remove("active")
+    }
+}
+
+window.addEventListener("scroll", activeElementOnScroll)
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Unix timestamp (in seconds) to count down to
